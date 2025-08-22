@@ -53,7 +53,24 @@ i:0,j:1,cost:1
 
 ---
 ---
+## Differences Between GBFS and A*
 
+- **Path Quality**  
+  - GBFS: Finds a path quickly but not always the shortest.  
+  - A*: Guarantees the shortest path (with admissible heuristic).  
+
+- **Evaluation Function**  
+  - GBFS: Uses only the heuristic `h(n)`.  
+  - A*: Uses both path cost and heuristic `g(n) + h(n)`.  
+
+- **Performance**  
+  - GBFS: Faster, less memory usage.  
+  - A*: Slower, but more accurate and reliable.  
+
+
+
+---
+---
 
 ## Conculsion
     This repository contains the complete solutions of the question Using both Approaches. 
